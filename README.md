@@ -1,79 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Zez Finance
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Bem-vindo ao projeto Zez Finance, uma aplicação financeira desenvolvida em React Native. Este guia fornecerá instruções sobre como contribuir para o projeto, sugestões de melhorias e uma visão geral das funcionalidades.
 
-## Step 1: Start the Metro Server
+Contribuição
+Se você deseja contribuir para o Zez Finance, siga os passos abaixo:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+# Passo 1: Iniciar o Servidor Metro
+Certifique-se de ter concluído as Instruções de Configuração do Ambiente React Native até o passo "Criando um novo aplicativo". Em seguida, inicie o Metro, o bundler JavaScript do React Native, com o seguinte comando:
 
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
+# usando npm
 npm start
 
-# OR using Yarn
+# OU usando Yarn
 yarn start
-```
 
-## Step 2: Start your Application
+# Passo 2: Iniciar sua Aplicação
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Deixe o Metro Bundler em execução e abra um novo terminal na raiz do projeto. Execute o seguinte comando para iniciar o aplicativo no Android:
 
-### For Android
-
-```bash
-# using npm
+# usando npm
 npm run android
 
-# OR using Yarn
+# OU usando Yarn
 yarn android
-```
+Para iOS:
 
-### For iOS
-
-```bash
-# using npm
+# usando npm
 npm run ios
 
-# OR using Yarn
+# OU usando Yarn
 yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+# Passo 3: Modificar seu Aplicativo
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Após iniciar e modificar o aplicativo, personalize-o conforme necessário. Abra App.tsx no seu editor de texto preferido para fazer alterações.
 
-## Step 3: Modifying your App
+Para Android: Pressione <kbd>R</kbd> duas vezes ou selecione "Recarregar" no Menu do Desenvolvedor (<kbd>Ctrl</kbd> + <kbd>M</kbd> no Windows/Linux ou <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> no macOS) para ver suas alterações.
 
-Now that you have successfully run the app, let's modify it.
+Para iOS: Pressione <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> no Simulador iOS para recarregar o aplicativo e visualizar as alterações.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Parabéns! Você executou e modificou com sucesso seu aplicativo React Native.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+# Funcionalidades e Abas
 
-## Congratulations! :tada:
+O Zez Finance possui as seguintes abas:
 
-You've successfully run and modified your React Native App. :partying_face:
+Dashboard: Apresenta uma visão geral das finanças, incluindo gráficos e estatísticas relevantes.
 
-### Now what?
+Despesas: Gerencie suas despesas, adicione novos registros e acompanhe seus gastos.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Criptomoedas: Acompanhe o mercado de criptomoedas, visualize preços em tempo real e gerencie sua carteira.
 
-# Troubleshooting
+Configuração: Configure preferências e personalize as configurações da aplicação.
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Exit: Encerre a aplicação.
 
-# Learn More
+# Sugestões de Melhorias
 
-To learn more about React Native, take a look at the following resources:
+Banco de Dados: Considere implementar um banco de dados para armazenar dados de forma persistente, melhorando a experiência do usuário.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+API do Alpha Vantage: Atualize a integração com a API do Alpha Vantage para garantir dados financeiros precisos e atualizados.
+
+Abas Adicionais: Adicione uma aba de "Budgets" para melhor gerenciamento de orçamentos financeiros.
+
+Aprimorar o Design: Explore oportunidades para aprimorar o design da aplicação, tornando-a mais intuitiva e atraente.
+
+Reforma da Arquitetura: Avalie a possibilidade de reformar a arquitetura do projeto para garantir escalabilidade e manutenibilidade a longo prazo.
+
+# Saiba Mais
+
+Repositório GitHub do Zez Finance: Explore o código-fonte.
+Demonstração do Zez Finance: Confira a aplicação em ação.
+Documentação do React Native: Saiba mais sobre o React Native.
+Configuração do Ambiente React Native: Guia para configurar o ambiente de desenvolvimento.
+Se encontrar problemas ou tiver dúvidas, sinta-se à vontade para abrir uma issue no repositório GitHub do Zez Finance. Estamos ansiosos para receber sua contribuição!
